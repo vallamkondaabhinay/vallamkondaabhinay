@@ -23,6 +23,8 @@ The following summaries describe my work and experiments. The linked case study 
 
 ### [Abhinay's AI Task Assistant](projects/calendar-task-ai/README.md)
 
+![AI Task Assistant workflow in n8n](projects/calendar-task-ai/assets/workflow-overview.png)
+
 - A portfolio case study covering natural-language task management with n8n, JavaScript, a language model and PostgreSQL.
 - Describes features, general design, engineering lessons and next steps.
 - Documentation only; no internal source code or operational data is published.

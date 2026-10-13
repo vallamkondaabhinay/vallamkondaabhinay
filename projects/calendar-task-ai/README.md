@@ -6,6 +6,12 @@ A prototype exploring how natural-language requests can drive task-management ac
 
 **Publication status:** project overview only. This page does not include a runnable workflow, database schema or implementation source.
 
+## Workflow overview
+
+![AI Task Assistant workflow in n8n](assets/workflow-overview.png)
+
+*Workflow canvas showing request validation, action routing and task operations. The image illustrates the prototype; it is not evidence of end-to-end verification.*
+
 ## Problem
 
 Task management often requires filling in forms and navigating several screens. A conversational interface can let users describe the action they need, while structured validation checks whether enough information has been provided.
