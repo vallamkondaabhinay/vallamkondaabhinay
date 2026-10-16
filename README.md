@@ -19,7 +19,7 @@ I'm seeking entry-level software engineering, Python backend, and AI engineering
 
 ## Selected work
 
-The following summaries describe my work and experiments. The linked case study is a project overview; runnable demos and measured results will be added as individual projects are prepared for publication.
+The following summaries describe my work and experiments. The task-assistant case study is a project overview; the local LLM page documents historical measured timings and limitations. Runnable demos will be added as individual projects are prepared for publication.
 
 ### [Abhinay's AI Task Assistant](projects/calendar-task-ai/README.md)
 
@@ -29,12 +29,13 @@ The following summaries describe my work and experiments. The linked case study 
 - Describes features, general design, engineering lessons and next steps.
 - Documentation only; no internal source code or operational data is published.
 
-### Local LLM JSON-to-Summary Service
+### [Local LLM Experiments: Speed and Numeric Fidelity](projects/local-llm-benchmarks/README.md)
 
 - Developed and experimented with a FastAPI service for turning structured business KPI data into natural-language summaries.
 - Worked with local language models through Ollama and explored CPU-only inference.
 - Integrated DuckDB and checked summaries against numeric source data.
-- Focus: numeric accuracy, response latency, and clear API contracts.
+- Published historical CPU experiment timings for Phi-4-mini, Qwen2.5 1.5B, SmolStruct and Osmosis, with output failures and measurement limitations.
+- Focus: numeric accuracy, response latency, and clear API contracts. The 2–5 second response goal is a target, not a verified result.
 
 ### Conversational PostgreSQL CRUD Workflows
 
