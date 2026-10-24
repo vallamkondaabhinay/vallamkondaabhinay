@@ -43,9 +43,15 @@ The following summaries describe my work and experiments. The task-assistant cas
 - Explored a chat interface for routing requests to the appropriate database operation.
 - Focus: structured inputs, validation, and predictable responses.
 
-### Employee Information & Timesheet Automation
+### [Employee Information Assistant](projects/employee-info-workflow/README.md)
 
-- Worked on employee record creation and updates with mandatory-field, email, phone, and date validation.
+- Published a case study on 24 October 2026 covering conversational employee requests, input validation and approval routing.
+- Explains the intended permission model, validation priorities and engineering lessons.
+- Status: development and testing in progress; production readiness is not yet certified.
+- High-level documentation with a synthetic example; no company data or internal source code.
+
+### Timesheet Automation
+
 - Explored using the authenticated employee context instead of asking users to enter their identity repeatedly.
 - Worked on optional time inputs and hours calculation for timesheet requests.
 - Focus: identity-aware workflows, partial updates, and handling missing input.
