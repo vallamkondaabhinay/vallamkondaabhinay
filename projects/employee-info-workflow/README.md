@@ -1,7 +1,7 @@
 # Employee Information Assistant
 
 **By Abhinay Vallamkonda**  
-**Portfolio update: 24 October 2026**  
+**Portfolio update: 27 October 2026**  
 **Status: development and validation in progress**
 
 A case study of my work on a conversational employee-information workflow using n8n, structured JSON and PostgreSQL.
@@ -66,6 +66,14 @@ A request like this may need follow-up questions for other mandatory fields. It 
 | Optional fields | Supported values are saved and retrieved correctly |
 | Updates | Each supported field is tested end to end |
 | Audit trail | Request, approval and record-change events remain traceable |
+
+## Progress update — 27 October 2026
+
+- Improved field-level validation feedback so rejected inputs can identify the field, explain the validation issue and suggest a correction.
+- Tested invalid email and mobile inputs; the rejection path returned the expected validation response in the test performed.
+- Reorganized the workflow layout for readability without intentionally changing workflow logic, queries or parameters.
+- Reviewed database access boundaries. Write permissions for the production employee workflow were not available in the reviewed connection, so production writes were not enabled or tested.
+- The workflow remains inactive for production use; these checks do not establish full end-to-end readiness.
 
 ## Current status and limitations
 
